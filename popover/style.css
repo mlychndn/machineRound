@@ -1,0 +1,28 @@
+.popover {
+  background-color: antiquewhite;
+  color: rgb(38, 65, 65);
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.show {
+  margin: 0;
+  background-color: burlywood;
+  display: inline-block;
+  color: rgb(20, 20, 20);
+  padding: 12px;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+
+.not-show {
+  display: none;
+}
+
+p {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
