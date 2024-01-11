@@ -1,0 +1,26 @@
+body {
+  background-color: red;
+  font-family: "Salsa", cursive;
+}
+
+.salesforce {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  text-decoration-style: none;
+}
+
+#salesforce-logo {
+  padding: 0 20px;
+}

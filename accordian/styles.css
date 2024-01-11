@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Salsa", cursive;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 1000px;
+  height: 100%;
+  background-color: beige;
+  margin: 0 auto;
+  border: 2px solid beige;
+  border-radius: 10px;
+  color: #a0c1b9;
+}
+
+.accordian-container {
+  width: 90%;
+  margin: 10px;
+}
+
+.accordian {
+  margin: 10px;
+  background-color: #6f432a;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.arrow {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.arrow-active {
+  transform: rotate(180deg);
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.2rem;
+  padding: 20px 10px;
+  display: none;
+  transition: all 0.8s;
+}
+
+.active {
+  display: block;
+}
